@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>river-valley-elementary-school</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script
+      src="https://kit.fontawesome.com/d62cfa5f51.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <!--Navigation-->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-sm default-bg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/school_logo.png" alt="LOGO" style="width: 50px" />
+          <img src="images/LOGO.png" style="height: 55px;" alt="LOGO NAME">
+        </a>
+  
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navigation"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admissions.html">ADMISSIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Page Title-->
+  <section class="jumbotron jumbotron-fluid sec-bg">
+    <div class="container text-center">
+      <h3>Contact</h3>
+      <h5>Home <span class="fas fa-angle-double-right"></span> Contact</h5>
+    </div>
+  </section>
+
+  <!--Contact Information-->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 reveal">
+        <h5 class="h5">Send us a Message</h5>
+        <p>
+          If there's anything you would like to tell us please use the form
+          provided...
+        </p>
+        <h5 class="h5">General Enquiries</h5>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <h6 class="h6 txt-yellow">Admissions</h6>
+              <ul class="navigation list-unstyled">
+                <li class="nav-item">
+                  Email:
+                  <a href="#" class="nav-link">admissionsrve@gmail.com</a>
+                </li>
+                <li class="nav-item">
+                  Tel: <a href="#" class="nav-link">+233(0) 30 196 7852</a>
+                </li>
+                <li>Off Titus Glover Street, Dansoman</li>
+              </ul>
+            </div>
+            <div class="col-sm-12 mb-2">
+              <h6 class="h6 txt-yellow">Admissions Hours</h6>
+              <ul class="list-unstyled">
+                <li>Monday - Friday</li>
+                <li>08:30 - 17:30</li>
+              </ul>
+            </div>
+            <div class="col-sm-12 mb-2">
+              <h6 class="h6 txt-yellow">Finance</h6>
+              <ul class=" navigation list-unstyled">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">accounts@rve.edu.gh</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-12 mb-2">
+              <h6 class="h6 txt-yellow">Communication</h6>
+              <ul class="navigation list-unstyled">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">info@rve.edu.gh</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact Form Begins Here-->
+      <div class="col-sm-12 col-md-8">
+        <form action="/action_page.php">
+        <div class="form-group">
+          <label for="name">Name:</label
+          ><input
+            type="name"
+            name="name"
+            class="form-control"
+            id="name"
+            placeholder="John Doe"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label
+          ><input
+            type="email"
+            name="email"
+            class="form-control"
+            id="email"
+            placeholder="emailExample@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number:</label
+          ><input
+            type="tel"
+            name="phone"
+            class="form-control"
+            id="phone"
+            placeholder="+233 25 541 3512"
+          />
+        </div>
+        <div class="form-group">
+          <label for="title">Subject:</label
+          ><input
+            type="text"
+            name="subject"
+            class="form-control"
+            id="title"
+            placeholder="Admission Enquiries"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label
+          ><textarea
+            name="message"
+            class="form-control"
+            id="message"
+            rows="6"
+            placeholder="Lorem Ipsum..."
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!--Google Maps-->
+  <div class="container-fluid mx-auto">
+    <iframe
+      style="width: 100%"
+      height="450"
+      src="https://maps.google.com/maps?q=Dansoman-Sahara,%20Accra&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
+      allowfullscreen=""
+    ></iframe>
+  </div>
+
+  <!--Footer Begins Here-->
+  <footer class="default-bg text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 pt-4 pl-5">
+          <h4>CONTACT</h4>
+          <ul class="navbar-nav text-break">
+            <li><i class="fas fa-phone"></i> +233(0) 302 310 417</li>
+            <li><i class="fas fa-envelope"></i> rivervalley221@gmail.com</li>
+            <li><i class="fas fa-globe"></i> info@rve.edu.gh</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-6 col-md-4 pt-4 pl-5">
+          <div>
+            <h4>QUICK LINKS</h4>
+            <ul class="navbar-nav list-unstyled navigation">
+              <li class="nav-item">
+                <i class="fas fa-angle-double-right"></i>
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-angle-double-right"></i>
+                <a class="nav-link" href="admissions.html">Admissions</a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-angle-double-right"></i>
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 pt-4 px-5">
+          <div class="">
+            <h4>ADDRESS</h4>
+            <ul class="list-unstyled text-break">
+              <li>
+                <i class="fas fa-location-dot"></i> Off Titus Glover Street,
+                Sahara. Opposite Republic Bank. Dansoman, Accra.
+              </li>
+              <li><i class="fas fa-location-crosshairs"></i> GA-341-2410</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-12 text-muted">
+          <div
+            class="border border-bottom-0 border-right-0 border-left-0 text-center mb-n2"
+          >
+            <p class="pt-2">
+              Copyright &copy;<span id="year"></span> All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
