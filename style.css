@@ -516,7 +516,7 @@ li.social-links a {
 }
 
 .slider-bg-two {
-    background-image: url("images/_MG_9504.jpg");
+    background-image: url("images/_MG_9505.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2069,7 +2069,7 @@ select.mobile-device {
 }
 
 .footer {
-    padding: 70px 0 80px !important;
+    padding: 70px 0px 0px !important;
     color: #FFFFFF;
     background-color: #2C3E50;
 }
@@ -2137,7 +2137,6 @@ select.mobile-device {
     margin-bottom: 10px;
     display: block;
     width: 100%;
-    /* border-bottom: 1px dashed rgba(255, 255, 255, 0.1); */
     padding-bottom: 10px;
 }
 
@@ -2161,11 +2160,9 @@ select.mobile-device {
     display: inline-block;
     width: 25px;
     margin-right: 10px;
-    /* border-right: 1px dashed rgba(255, 255, 255, 0.1); */
 }
 
 .copyrights {
-    /* border-top: 1px dashed rgba(255, 255, 255, 0.1); */
     background-color: #2C3E50;
     box-sizing: border-box;
     width: 100%;
@@ -2183,7 +2180,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-links {
-    margin: 0 0 10px;
+    margin: 0px;
     text-transform: uppercase;
     padding: 0;
 }
@@ -3039,6 +3036,14 @@ select.mobile-device {
 
 .whtxt {
     color: #ffffff;
+}
+
+.contact_info a {
+    color: #000000;
+}
+
+.contact_info a:hover {
+    color: #E67E22;
 }
 
 .page-title-link li{
