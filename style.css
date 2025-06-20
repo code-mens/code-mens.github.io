@@ -2065,7 +2065,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: 1px !important;
 }
 
 .footer {

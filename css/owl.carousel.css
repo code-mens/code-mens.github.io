@@ -177,9 +177,15 @@
   position: absolute;
   right:auto;
   left: -10%;
+<<<<<<< HEAD
     -webkit-border-radius: 25px 25px 25px 25px;
     -moz-border-radius: 25px 25px 25px 25px;
     border-radius: 25px 25px 25px 25px;    
+=======
+    -webkit-border-radius: 25px 0px 25px 0px;
+    -moz-border-radius: 25px 0px 25px 0px;
+    border-radius: 25px 0px 25px 0px;    
+>>>>>>> 7192a90732a9413f0bdd09ad3cd99c9d38168492
 }
 
 .owl-next i:hover,
