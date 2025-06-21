@@ -3032,6 +3032,7 @@ select.mobile-device {
 .align-fix {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .whtxt {
